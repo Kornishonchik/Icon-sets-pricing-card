@@ -20,3 +20,18 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+}
+
+main {
+    max-width: 640px;
+    height: 724px;
+    
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
