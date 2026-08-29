@@ -1,5 +1,22 @@
+:root {
+    --blue: #4D46A5;
+    --green: #45A69A;
+    --gray: #5B5B5E;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --font-family: 'Roboto', sans-serif;
+
+    --fw-medium: 500;
+    --fw-bold: 700;
+
+    --text-preset-1: var(--fw-medium) 16px var(--font-family);
+    --text-preset-2: var(--fw-bold) 24px var(--font-family);
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
