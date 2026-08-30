@@ -3,6 +3,7 @@
     --green: #45A69A;
     --gray: #5B5B5E;
     --white: #FFFFFF;
+    --dark-white: #E3E3E3;
     --black: #000000;
 
     --font-family: 'Roboto', sans-serif;
@@ -11,7 +12,8 @@
     --fw-bold: 700;
 
     --text-preset-1: var(--fw-medium) 16px var(--font-family);
-    --text-preset-2: var(--fw-bold) 24px var(--font-family);
+    --text-preset-2: var(--fw-bold) 16px var(--font-family);
+    --text-preset-3: var(--fw-bold) 24px var(--font-family);
 }
 
 * {
@@ -39,5 +41,40 @@ main {
 
 ul {
     list-style: none;
+}
+
+.button-tabs {
+    display: flex;                  
+    padding: 14px 15px;          
+    border: 1px solid var(--dark-white);
+    border-radius: 20px;
+
+    margin-bottom: 63px;
+}
+
+.button-tabs .tab-button {
+    flex: 1;                        
+    padding: 26px 27px;                
+    border: none;
+    background: transparent;       
+    
+    font: var(--text-preset-1);
+    color: var(--black);
+    
+    border-radius: 20px;            
+    cursor: pointer;
+}
+
+.button-tabs .tab-button.active {
+    background-color: var(--green);
+    color: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    font: var(--text-preset-2);
+    color: var(--gray);
+
+    margin-bottom: 14px;
 }
 
