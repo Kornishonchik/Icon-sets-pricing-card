@@ -1,5 +1,6 @@
 :root {
     --blue: #4D46A5;
+    --dark-blue: #373288;
     --green: #45A69A;
     --gray: #5B5B5E;
     --white: #FFFFFF;
@@ -71,6 +72,11 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+.button-tabs .tab-button:not(.active):hover {
+    background-color: #f3f4f6;
+    transition: background-color 0.3s ease;
+}
+
 .card-content {
     display: flex;
     flex-direction: column;
@@ -136,4 +142,30 @@ ul {
     
     color: var(--white);
     cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: var(--dark-blue);
+    transition: 0.3s ease;
+}
+
+/* === Mobile Phone === */
+
+@media (max-width: 600px) {
+    main {
+        padding: 40px 0; 
+        margin: 20px;    
+    }
+
+    .button-tabs {
+        margin: 0 20px 40px 20px; 
+    }
+
+    .card-content {
+        margin: 0 20px 40px 20px; 
+    }
+    
+    .button-tabs .tab-button {
+        padding: 12px 10px; 
+    }
 }
