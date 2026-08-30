@@ -25,13 +25,19 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--blue);
+    min-height: 100vh;
 }
 
 main {
+    width: 100%;
     max-width: 640px;
-    height: 724px;
+    padding: 78px 60px 102px 60px;
     
     background-color: var(--white);
     border-radius: 20px;
+}
+
+ul {
+    list-style: none;
 }
 
