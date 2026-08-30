@@ -76,7 +76,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 63px 103px 102px 120px;
+    /*margin: 63px 103px 102px 120px;*/
 }
 
 .subtitle {
@@ -103,4 +103,35 @@ ul {
 .price {
     font: var(--text-preset-3);
     color: var(--black);
+}
+
+.description {
+    font: var(--text-preset-2);
+    color: var(--gray);
+    margin-bottom: 28px;
+}
+
+.card-list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.card-list p {
+    font: var(--text-preset-1);
+    color: var(--black);
+    opacity: 0.8;
+}
+
+.submit-button {
+    margin-top: 38px;
+
+    font: var(--text-preset-1);
+    background-color: var(--blue);
+    border: none;
+    border-radius: 36px;
+    padding: 26px 170px 27px 167px;
+    color: var(--white);
+    cursor: pointer;
 }
