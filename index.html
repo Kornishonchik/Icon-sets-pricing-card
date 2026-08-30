@@ -16,18 +16,18 @@
 <body>
    <main>
         <div class="button-tabs">
-            <button class="tab-button">Basic</button>
-            <button class="tab-button active">Standart</button>
-            <button class="tab-button">Premium</button>
+            <button class="tab-button" data-plan="basic">Basic</button>
+            <button class="tab-button active" data-plan="standard">Standard</button>
+            <button class="tab-button" data-plan="premium">Premium</button>
         </div>
 
         <div class="card-content">
-            <span class="subtitle">STANDARD</span>
+            <span class="subtitle" id="plan-subtitle">STANDARD</span>
             <div class="title-price-row">
                 <h1 class="title">Icon Sets</h1>
-                <span class="price">$120</span>
+                <span class="price" id="plan-price">$120</span>
             </div>
-            <p class="description">Up to 100 creative & professional icons + two color versions/themes per month</p>
+            <p class="description" id="plan-desc">Up to 100 creative & professional icons + two color versions/themes per month</p>
 
             <ul class="card-list">
                 <li>
@@ -35,14 +35,16 @@
                     <p>Included source files</p>
                 </li>
                 <li>
-                    <img src="design/list.svg" class="check-icon">
-                    <p>Converted to responsive components</p>
+                    <img src="design/list.svg" class="check-icon" id="responsive-icon">
+                    <p id="responsive-text">Converted to responsive components</p>
                 </li>
             </ul>
 
             <button class="submit-button">Add to cart</button>
         </div>
    </main>
+
+   <script src="script.js"></script>
 </body>
 
 </html>
