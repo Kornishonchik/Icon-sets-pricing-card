@@ -153,18 +153,10 @@ ul {
 
 @media (max-width: 600px) {
     main {
-        max-width: 380px;  
+        padding: 30px 20px;
     }
 
     .button-tabs {
-        margin: 61px 11px 52px 10px; 
-    }
-
-    .card-content {
-        margin: 0 41px 151px 41px; 
-    }
-    
-    .button-tabs .tab-button {
-        padding: 23px 29px 23px 28px; 
+        margin-bottom: 30px;
     }
 }

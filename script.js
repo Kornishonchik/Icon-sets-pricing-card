@@ -41,3 +41,10 @@ tabButtons.forEach(button => {
         responsiveIconEl.src = planInfo.iconSrc;
     });
 });
+
+
+const addToCartBtn = document.querySelector('.submit-button');
+
+addToCartBtn.addEventListener('click', () => {
+    alert('Thank you! The plan has been added to your cart.');
+});
