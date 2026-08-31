@@ -55,7 +55,7 @@ ul {
 
 .button-tabs .tab-button {
     flex: 1;                        
-    padding: 26px 27px;                
+    padding: 26px 27px;   
     border: none;
     background: transparent;       
     
@@ -153,19 +153,18 @@ ul {
 
 @media (max-width: 600px) {
     main {
-        padding: 40px 0; 
-        margin: 20px;    
+        max-width: 640px;  
     }
 
     .button-tabs {
-        margin: 0 20px 40px 20px; 
+        margin: 61px 11px 52px 10px; 
     }
 
     .card-content {
-        margin: 0 20px 40px 20px; 
+        margin: 0 41px 151px 41px; 
     }
     
     .button-tabs .tab-button {
-        padding: 12px 10px; 
+        padding: 23px 29px 23px 28px; 
     }
 }
